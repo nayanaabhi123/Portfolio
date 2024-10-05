@@ -1,0 +1,311 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+/* Header Section */
+/* Header Section */
+header {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #f1c40f; /* Maintain your background color */
+    color: white;
+    position: relative; /* Enable absolute positioning within the header */
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* RHCSA Badge Styling */
+.rhcsa-badge {
+    position: absolute;
+    bottom: 10px; /* Adjust this value based on your layout */
+    right: 30px;  /* Adjust this value based on your layout */
+    width: 120px;  /* Adjust width based on how large you want the badge */
+    height: auto;
+}
+
+
+/* About Section */
+.about {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about-column {
+    width: 48%;
+    text-align: justify; /* Ensures both paragraphs are justified */
+    line-height: 1.6; /* Adds consistent line spacing for readability */
+}
+
+.about-column p {
+    margin-bottom: 20px;
+}
+
+/* Styling for the second paragraph */
+.about-column .second-para {
+    margin-top: 20px; /* Adds space between the first and second paragraphs */
+    text-align: justify; /* Ensures consistent text alignment */
+}
+
+/* Details & Social Icons */
+.details p {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links .icon {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #34495e;
+    text-decoration: none;
+}
+
+.social-links .icon:hover {
+    color: #3498db;
+}
+
+/* My Articles Section */
+.articles {
+    margin: 20px 0; /* Space above and below the section */
+    padding: 20px; /* Padding inside the section */
+    background-color: #fff; /* white background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.articles h3 {
+    color: #2c3e50; /* Darker color for the heading */
+    font-size: 24px; /* Adjust font size */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.articles p {
+    color: #34495e; /* Color for the paragraph text */
+    font-size: 16px; /* Adjust font size */
+    margin: 10px 0; /* Space above and below paragraphs */
+}
+
+.articles a {
+    color: #2980b9; /* Link color */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold text */
+}
+
+.articles a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #1a5276; /* Darker color on hover */
+}
+
+
+/* Main Section - Two Columns Layout */
+.main-content {
+    display: flex;
+    justify-content: space-between; /* Ensures even spacing between columns */
+    gap: 20px; /* Adjusts the gap between the columns */
+}
+
+.experience, .education {
+    width: 48%; /* Each column takes roughly half the space */
+}
+
+/* Experience Section Styling */
+.experience ul li {
+    background-color: #fff; /* Light grey background */
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: #2c3e50; /* Dark grey text */
+    position: relative;
+}
+
+.company-logo {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.company-name {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.job-title {
+    color: #34495e;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.experience-dates {
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+.job-location {
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+/* Education Section Styling */
+.education ul li {
+    background-color: #fff; /* Off-white background */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.degree {
+    color: black; /* Degree name in black */
+    font-weight: bold;
+}
+
+.university {
+    color: #7f8c8d; /* Light grey for university name */
+    text-decoration: none; /* No underline for the link */
+}
+
+.university:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+
+
+
+/* Skills Section (adjusting for RHCSA, RHCE) */
+.skills .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    width: 100px;
+}
+
+.skill-item i, .skill-item img {
+    font-size: 40px; /* Icon size */
+    margin-bottom: 5px;
+    color: #3498db; /* Color for FontAwesome icons */
+}
+
+.skill-item img {
+    width: 40px; /* Adjust image icon size */
+    height: 40px;
+}
+
+.skill-item span {
+    font-size: 14px; /* Font size for skill names */
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+
+/* Certifications Section */
+.certifications {
+    margin-top: 20px;
+}
+
+.cert-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.cert-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.cert-details {
+    color: #333;
+}
+
+.cert-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.cert-org {
+    font-size: 14px;
+    color: grey;
+}
+
+.cert-dates,
+.cert-id {
+    font-size: 12px;
+    color: #555;
+}
+
+.cert-link {
+    font-size: 12px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.cert-link:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer Section */
+footer {
+    text-align: center;
+    background-color: #34495e;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+footer a {
+    color: #f39c12;
+    text-decoration: none;
+}
